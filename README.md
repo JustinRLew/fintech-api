@@ -48,23 +48,22 @@ This project demonstrates a secure fintech payment gateway designed with cyberse
    cd fintech-api
 
 
-   Install dependencies:
+Install dependencies:
 
 bash
-Copy code
 npm install
 Create a .env file and configure environment variables:
 
 plaintext
-Copy code
 ENCRYPTION_KEY=your-256-bit-key
 ENCRYPTION_IV=your-16-byte-iv
 JWT_SECRET=your-jwt-secret
+
 Start the application:
 
 bash
-
 node server.js
+
 Access the application at http://localhost:3000.
 
 3. Deployment on GCP
