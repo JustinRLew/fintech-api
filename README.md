@@ -1,7 +1,7 @@
-# **Fintech Cybersecurity Application**
+# **Fintech Payment Gateway**
 
 ## **Project Overview**
-This project demonstrates a secure fintech payment gateway designed with cybersecurity best practices. It focuses on protecting sensitive financial data, ensuring secure communication, and implementing measures to detect and respond to threats. The project simulates real-world scenarios in the fintech industry, and emphasizes compliance with industry standards such as PCI-DSS.
+This project highlights a secure fintech payment gateway built with cybersecurity best practices. It prioritizes protecting sensitive financial data, ensures secure communication, and detects and addresses threats. The design simulates real-world fintech scenarios and complies with standards like PCI-DSS.
 
 ---
 
@@ -52,11 +52,15 @@ Install dependencies:
 
 bash
 npm install
+
 Create a .env file and configure environment variables:
 
 plaintext
+
 ENCRYPTION_KEY=your-256-bit-key
+
 ENCRYPTION_IV=your-16-byte-iv
+
 JWT_SECRET=your-jwt-secret
 
 Start the application:
